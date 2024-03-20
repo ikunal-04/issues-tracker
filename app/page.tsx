@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div>
-      hola amigo kaise ho thik ho!!
+      This is a normal issue tracker website.
     </div>
   );
 }
