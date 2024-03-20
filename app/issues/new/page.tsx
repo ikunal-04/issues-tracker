@@ -1,5 +1,6 @@
 'use client';
-import SimpleMDE from "react-simplemde-editor";
+import dynamic from 'next/dynamic';
+const SimpleMDE = dynamic(() => import('react-simplemde-editor'), { ssr: false });
 import "easymde/dist/easymde.min.css";
 import { TextField, Button, Callout, Text } from "@radix-ui/themes";
 import { useForm, Controller } from "react-hook-form";
